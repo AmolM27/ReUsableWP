@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "re-usable-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reUsableWp/ReUsableWpWebPart.js",
+          "manifest": "./src/webparts/reUsableWp/ReUsableWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReUsableWpWebPartStrings": "lib/webparts/reUsableWp/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

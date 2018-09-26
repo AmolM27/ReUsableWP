@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "re-usable-wp-client-side-solution",
+    "id": "a1dfab88-0cae-49f3-b5df-69daf042a920",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/re-usable-wp.sppkg"
+  }
+}
